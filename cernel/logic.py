@@ -12,7 +12,7 @@ class DatabaseManagement:
 
         self.host = 'localhost'
         self.user = 'root'
-        self.password = 'binancepassword'
+        self.password = ''
 
         self.base_telegram_bot = DataBase(self.host, self.user, self.password, 'base_telegram_bot')
 
